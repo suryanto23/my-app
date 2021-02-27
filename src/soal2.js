@@ -9,7 +9,7 @@ import {
 } from "react-router-dom";
 
 
-import Navbar  from "./component/Navbar.js";
+
 import ListProduct  from "./component/ListProduct.js";
 import Counter from './component/Counter/Counter.js'
 
@@ -30,22 +30,15 @@ function App() {
 
   return (
     <Router>
-        <div >
-
-
-          <Navbar/>
+        <div className="App App-header">
 
 
         <Switch>
-          <Route exact path="/">
-            <h1>Exercise 1 - Create Counter</h1>
-            <Counter number={number} minus={minus} plus={plus}/>          
-          </Route>
-          
-          <Route path="/product">
-            <h1>Exercise 2 - Product Item List</h1>
-            
+          <Route path="/soal-1">
             <ListProduct />
+          </Route>
+          <Route path="/soal-2">
+            <Counter number={number} minus={minus} plus={plus}/>
           </Route>
         </Switch>
 

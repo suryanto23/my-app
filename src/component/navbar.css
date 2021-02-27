@@ -1,0 +1,12 @@
+.navigasi {
+	background-color: gray;
+	margin-bottom: 80px;
+	padding: 10px;
+}
+
+a {
+	margin: 5px 10px;
+	text-decoration: none;
+	color: white;
+	font-size: 20px;
+}
